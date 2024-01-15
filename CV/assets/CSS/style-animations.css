@@ -1,0 +1,10 @@
+
+figure a img:hover{cursor:zoom-in;}
+
+section a:hover{border-bottom: 2px purple;}
+
+h4:hover{border-right: 4px purple;}
+
+h3:hover{border-right: 4px purple;}
+
+footer a img:hover{opacity:0.5;}

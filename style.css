@@ -1,0 +1,53 @@
+@import url(./assets/CSS/footer.css);
+@import url(./assets/CSS/header.css);
+@font-face{
+    font-family: 'positive system' ;
+    src: url(./assets/Fonts/Positive\ System.otf);
+}
+@font-face {
+    font-family: "LCD" ;
+    src: url(../Fonts/LCDWinTT/LCD2N___.TTF) format(truetype);}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+main{
+    display: flex;
+    justify-content: space-around;
+    align-content: space-evenly;
+    background: #888888
+}
+
+
+.profile{
+    display: block;
+    height: 600px;
+    width: 600px;
+}
+
+.profile img{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+
+}
+
+.square{
+    display: inline;
+}
+
+.square h2{
+    font-family: 'positive system';
+    font-size: 50px;
+    color: #ff00ff;
+}
+
+.square ul {
+    list-style: none;
+    font-family: "LCD";
+    color: #00ff00;
+}

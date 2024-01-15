@@ -1,0 +1,99 @@
+
+@import url("./style-animations.css");
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@font-face{
+    font-family:"raleway";
+    src :url('../Fonts/Raleway-VariableFont_wght.woff');
+    src :url('../Fonts/Raleway-VariableFont_wght.ttf');
+    src :url('../Fonts/Raleway-Italic-VariableFont_wght.ttf') format('truetype');
+}
+ 
+ *{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+ }
+
+ body {font-family: "raleway";}
+ h1, h2, h3, h4, h5{
+  font-family: 'Lato', sans-serif;
+ }
+
+ header{
+  display: flex;
+  justify-content: center;  
+  align-items: center;
+  background-color: #782221;
+}
+
+figure{
+  display:flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+figure img { 
+  border-radius: 100%;
+  border: 5px solid black;
+}
+
+address{
+  width: 100%;
+  height: 45%;
+  display:flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-content: space-between;
+  background: #2c1d27;
+}
+
+address a {
+  color: white;
+}
+
+main{
+  width: auto;
+  height: 100%;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-around ;
+}
+
+.path{
+  display: inline-block;
+}
+
+.personalité{
+  display: inline-block;
+  width: 300px;
+  height: 1450px;
+  margin: 0%;
+  padding-left: 5px;
+  background: #782221;
+}
+.langues, .passions {
+  list-style-type: none;
+}
+
+h3{
+  background: #dbc2a4;
+}
+
+footer{
+  height: 100px;
+  width:100% ;
+  padding :25px;
+  display:flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-content:center;
+  background: #782221;
+}
+
+.links{
+position:absolute;
+margin-left: -3%;
+width: 5%;
+height: 10%;
+}
+

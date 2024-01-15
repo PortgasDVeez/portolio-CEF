@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Veezyr - Shadow</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<link rel="stylesheet" href="link in bio.css">
+</head>
+<body>
+
+	<header>
+		<h1><a href="../index.html">accueil</a></h1>
+        <h1><a href="../CV/index.html">Mon CV</a></h1>
+        <h1><a href="../double clock/index.html">l'horloge </a></h1>
+        <h1><a href="./link in bio.html">link in bio </a></h1>
+    </header>
+	
+		<div class ="single">
+        <img class="cover-image" src="./img/cover shadow.jpg" alt="suited man in pixel art">
+        <h1>Veezyr - shadow</h1>
+        </div> 
+	<div class="navigation">
+		<div class="menuToggle"></div>
+		<ul>
+			<li>
+				<a href="https://open.spotify.com/album/3oXBj9SW61Q7tOLEQ6aeos" target="_blank">
+					<span class="icon"><i class="fa-brands fa-spotify"></i></span>
+					<span class="streaming">spotify</span>
+				</a>
+			</li>
+			<li>
+				<a href="https://www.deezer.com/en/album/516862852" target="_blank">
+					<span class="icon"><i class="fa-brands fa-deezer"></i></span>
+					<span class="streaming">deezer</span>
+				</a>
+			</li>
+			<li>
+				<a href="https://music.apple.com/us/album/hors-s%C3%A9rie-shadow-single/1718461144" target="_blank">
+					<span class="icon"><i class="fa-brands fa-apple"></i></span>
+					<span class="streaming">apple music</span>
+				</a>
+			</li>
+			<li>
+				<a href="https://music.amazon.fr/albums/B0CP1F2TYC" target="_blank">
+					<span class="icon"><i class="fa-brands fa-amazon"></i></span>
+					<span class="streaming">amazon music</span>
+				</a>
+			</li>
+			<li>
+				<a href="https://listen.tidal.com/album/331281627" target="_blank">
+					<span class="icon"><i class="fa-solid fa-t"></i></span>
+					<span class="streaming">tidal</span>
+				</a>
+			</li>
+			<li>
+				<a href="https://www.youtube.com/watch?v=l-y_aghozbo" target='_blank'>
+					<span class="icon"><i class="fa-brands fa-youtube"></i></span>
+					<span class="title">youtube</span>
+				</a>
+			</li>
+		</ul>
+	</div>
+	<script>
+		let navigation = document.querySelector('.navigation');
+		document.querySelector('.menuToggle').onclick = function(){
+			this.classList.toggle('active');
+			navigation.classList.toggle('active')
+		}
+	</script>
+	 <footer>
+        <a
+          href="https://ca.linkedin.com/in/junior-monnereau-739b85130"
+          target="_blank"
+          ><img
+            src="./img/logo-linkedin.png"
+            alt="logo linkedin"
+            class="links"
+        /></a>
+        <a
+          href="https://stackoverflow.com/users/22906877/portgas-d-veez"
+          target="_blank"
+          ><img
+            src="./img/stackoverflow-logo-icon-png-svg.png"
+            alt="logo stack overflow"
+            class="links"
+        /></a>
+        <a href="https://github.com/PortgasDVeez" target="_blank"
+          ><img
+            src="./img/signe-github.png"
+            alt="logo github"
+            class="links"
+        /></a>
+        <a href="https://twitter.com/YoungVeezyr" target="_blank"
+          ><img
+            src="./img/x-logo-twitter-transparent-logo-download-3.png"
+            alt="logo X"
+            class="links"
+        /></a>
+    </footer>
+</body>
+</html>
